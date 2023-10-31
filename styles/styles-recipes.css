@@ -1,9 +1,42 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    background-color:beige;
+    background-color: tan;
+
+}
+
+img {
+    width: 200px;
 }
 
 ul {
     list-style-type: none;
+}
+
+h1 {
+    color: darkred;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.outer{
+    width: 400px;
+    text-align: center;
+    background-color: #FFFAFA;
+    margin: 20px auto;
+    padding: 50px;
+    border: 2px solid darkred;
+}
+
+.inner {
+    text-align: left;
+
 }
